@@ -30,4 +30,4 @@ The scheduler is finished off with a reminder to have a good night.
 
 ## LIVE LINK
 
-This project is currently live at [scheduler link](https://luvwitch.github.io/Day-Planner/)
+This project is currently live at [luvwitch.github.io/Day-Planner](https://luvwitch.github.io/Day-Planner/)
