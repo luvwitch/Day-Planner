@@ -25,234 +25,272 @@
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
+      <br>
       <p class="lead">A simple calendar app for scheduling your work day</p>
+      <br>
       <p id="currentDay" class="lead"></p>
     </header>
+
+    <div class="container">    
+    <!-- Timeblocks go here (forms for 9am- 9pm)--> 
     
-    <!-- Timeblocks go here (forms for 9am- 9pm)-->
-
     <!--9 AM-->
-
-    <div class="container">
-      <form class="time-block row"> 
+      <div class="time-block row"> 
        <div class="input-group">
-          <div class="hour" id="hour"> 09:00 </div> 
-          <textarea class="form-control" aria-label="Events">             
+          <div class="input-group-prepend hour"> 
+          <p> 09:00 </p> 
+          </div> 
+          <textarea class="form-control" aria-label="Events" id = "9">             
           </textarea>
           <div class="input-group-append">
-            <button type="button" class="btn btn-primary saveBtn">
+            <button type="button" class="btn btn-primary saveBtn" value="9">
               <i class="fas fa-save"></i>
             </button>
           </div>
         </div>
-      </form>
-    </div>
+      </div>   
 
-     <!--10 AM-->
-     
-    <div class="container">
-      <form class="time-block row"> 
+     <!--10 AM-->     
+   
+      <div class="time-block row"> 
        <div class="input-group">
-            <div class="hour" id="hour"> 10:00 </div>           
-          <textarea class="form-control" aria-label="Events" placeholder="Add event?"> 
+            <div class="input-group-prepend hour"> 
+              <p> 10:00 </p>
+            </div>           
+          <textarea class="form-control" aria-label="Events" id = "10"> 
           </textarea>
           <div class="input-group-append">
-            <button type="button" class="btn btn-primary saveBtn">
+            <button type="button" class="btn btn-primary saveBtn" value="10">
               <i class="fas fa-save"></i>
             </button>
           </div>
         </div>
-      </form>
-    </div>
+      </div>    
 
      <!--11 AM-->
-
-    <div class="container">
-      <form class="time-block row"> 
+    
+      <div class="time-block row"> 
         <div class="input-group">
-           <div class="hour"> 11:00 </div> 
-          <textarea class="form-control" aria-label="Events" placeholder="Add event?"> 
+           <div class="input-group-prepend hour"> 
+             <p> 11:00 </p>
+           </div> 
+          <textarea class="form-control" aria-label="Events" id ="11"> 
           </textarea>
           <div class="input-group-append">
-            <button type="button" class="btn btn-primary saveBtn">
+            <button type="button" class="btn btn-primary saveBtn" value="11">
               <i class="fas fa-save"></i>
             </button>
           </div>
         </div>
-      </form>
-    </div>
+      </div>    
 
      <!--12 PM-->
-
-    <div class="container">
-      <form class="time-block row"> 
+    
+      <div class="time-block row"> 
        <div class="input-group">
-          <div class="hour"> 12:00 </div>
-          <textarea class="form-control" aria-label="Events" placeholder="Add event?"> 
+          <div class="input-group-prepend hour">             
+            <p> 12:00 </p>
+          </div>
+          <textarea class="form-control" aria-label="Events" id = "12"> 
           </textarea>
           <div class="input-group-append">
-            <button type="button" class="btn btn-primary saveBtn">
-              <i class="fas fa-save"></i>
+            <button type = "button" class = "btn btn-primary saveBtn" value = "12" >
+              <i class= "fas fa-save"></i>
             </button>
           </div>
         </div>
-      </form>
-    </div>
+      </div>    
     
      <!--1 PM-->
-
-    <div class="container">
-      <form class="time-block row"> 
+    
+      <div class="time-block row"> 
        <div class="input-group">
-          <div class="hour"> 01:00 </div>
-          <textarea class="form-control" aria-label="Events" placeholder="Add event?"> 
+          <div class="input-group-prepend hour"> 
+           <p> 01:00 </p>
+          </div>
+          <textarea class="form-control" aria-label="Events" id = "13"> 
           </textarea>
           <div class="input-group-append">
-            <button type="button" class="btn btn-primary saveBtn">
+            <button type = "button" class = "btn btn-primary saveBtn" value = "13">
               <i class="fas fa-save"></i>
             </button>
           </div>
         </div>
-      </form>
-    </div>
+      </div>    
     
      <!--2 PM-->
-
-     <div class="container">
-      <form class="time-block row"> 
+     
+      <div class="time-block row"> 
        <div class="input-group">
-          <div class="hour"> 02:00 </div>
-          <textarea class="form-control" aria-label="Events" placeholder="Add event?"> 
+          <div class="input-group-prepend hour"> 
+           <p> 02:00 </p>
+          </div>
+          <textarea class="form-control" aria-label="Events" id="14"> 
           </textarea>
           <div class="input-group-append">
-            <button type="button" class="btn btn-primary saveBtn">
+            <button type="button" class="btn btn-primary saveBtn" value="14">
               <i class="fas fa-save"></i>
             </button>
           </div>
         </div>
-      </form>
-    </div>
+      </div>    
      
      <!--3 PM-->
-
-     <div class="container">
-      <form class="time-block row"> 
+     
+      <div class="time-block row"> 
        <div class="input-group">
-          <div class="hour"> 03:00 </div>
-          <textarea class="form-control" aria-label="Events" placeholder="Add event?"> 
+          <div class="input-group-prepend hour">
+            <p> 03:00 </p>
+          </div>
+          <textarea class="form-control" aria-label="Events" id ="15"> 
           </textarea>
           <div class="input-group-append">
-            <button type="button" class="btn btn-primary saveBtn">
+            <button type="button" class="btn btn-primary saveBtn" value ="15">
               <i class="fas fa-save"></i>
             </button>
           </div>
         </div>
-      </form>
-    </div>
+      </div>    
      
      <!--4 PM-->
-
-     <div class="container">
-      <form class="time-block row"> 
+     
+      <div class="time-block row"> 
        <div class="input-group">
-          <div class="hour"> 04:00 </div>
-          <textarea class="form-control" aria-label="Events" placeholder="Add event?"> 
+          <div class="input-group-prepend hour"> 
+           <p> 04:00 </p>
+          </div>
+          <textarea class="form-control" aria-label="Events" id= "16"> 
           </textarea>
           <div class="input-group-append">
-            <button type="button" class="btn btn-primary saveBtn">
+            <button type="button" class="btn btn-primary saveBtn" value = "16">
               <i class="fas fa-save"></i>
             </button>
           </div>
         </div>
-      </form>
-    </div>
+      </div>    
      
      <!--5 PM-->
-
-     <div class="container">
-      <form class="time-block row"> 
+     
+      <div class="time-block row"> 
        <div class="input-group">
-          <div class="hour"> 05:00 </div>
-          <textarea class="form-control" aria-label="Events" placeholder="Add event?"> 
+          <div class="input-group-prepend hour"> 
+           <p> 05:00 </p>
+          </div>
+          <textarea class="form-control" aria-label="Events" id = "17"> 
           </textarea>
           <div class="input-group-append">
-            <button type="button" class="btn btn-primary saveBtn">
+            <button type="button" class="btn btn-primary saveBtn" value= "17">
               <i class="fas fa-save"></i>
             </button>
           </div>
         </div>
-      </form>
-    </div>
+      </div>    
      
      <!--6 PM-->
-
-     <div class="container">
-      <form class="time-block row"> 
+    
+      <div class="time-block row"> 
        <div class="input-group">
-          <div class="hour"> 06:00 </div>
-          <textarea class="form-control" aria-label="Events" placeholder="Add event?"> 
+          <div class="input-group-prepend hour"> 
+            <p> 06:00 </p> 
+          </div>
+          <textarea class="form-control" aria-label="Events" id="18""> 
           </textarea>
           <div class="input-group-append">
-            <button type="button" class="btn btn-primary saveBtn">
+            <button type="button" class="btn btn-primary saveBtn" value = "18">
               <i class="fas fa-save"></i>
             </button>
           </div>
         </div>
-      </form>
-    </div>
+      </div>    
      
      <!--7 PM-->
-
-     <div class="container">
-      <form class="time-block row"> 
+     
+      <div class="time-block row"> 
        <div class="input-group">
-          <div class="hour"> 07:00 </div>
-          <textarea class="form-control" aria-label="Events" placeholder="Add event?"> 
+          <div class="input-group-prepend hour"> 
+            <p> 07:00 </p>
+          </div>
+          <textarea class="form-control" aria-label="Events" id = "19"> 
           </textarea>
           <div class="input-group-append">
-            <button type="button" class="btn btn-primary saveBtn">
+            <button type="button" class="btn btn-primary saveBtn" value = "19">
               <i class="fas fa-save"></i>
             </button>
           </div>
         </div>
-      </form>
-    </div>
+      </div>    
      
      <!--8 PM-->
-
-     <div class="container">
-      <form class="time-block row"> 
+     
+      <div class="time-block row"> 
        <div class="input-group">
-          <div class="hour"> 08:00 </div>
-          <textarea class="form-control" aria-label="Events" placeholder="Add event?"> 
+          <div class="input-group-prepend hour"> 
+            <p> 08:00 </p>
+          </div>
+          <textarea class="form-control" aria-label="Events" id="20"> 
           </textarea>
           <div class="input-group-append">
-            <button type="button" class="btn btn-primary saveBtn">
+            <button type="button" class="btn btn-primary saveBtn" value = "20">
               <i class="fas fa-save"></i>
             </button>
           </div>
         </div>
-      </form>
-    </div>
+      </div>    
      
      <!--9 PM-->
-
-     <div class="container">
-      <form class="time-block row"> 
-       <div class="input-group">
-          <div class="hour"> 09:00 </div>
-          <textarea class="form-control" aria-label="Events" placeholder="Add event?"> 
+     
+      <div class="time-block row"> 
+        <div class="input-group">
+          <div class="input-group-prepend hour">
+            <p> 09:00 </p>
+          </div>
+          <textarea class="form-control" aria-label="Events" id = "21"> 
           </textarea>
           <div class="input-group-append">
-            <button type="button" class="btn btn-primary saveBtn">
+            <button type="button" class="btn btn-primary saveBtn" value = "21">
               <i class="fas fa-save"></i>
             </button>
           </div>
         </div>
-      </form>
+      </div>
+      
     </div>
-
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+   
+   <script type="text/javascript">
+
+    var currentDay = new Date($.now());
+      
+      $("#currentDay").html(currentDay);
+            
+      var dayContent = JSON.parse(localStorage.getItem("input"));
+            
+      if(dayContent === null){
+          dayContent = ["","","","","","","","","","","",""];
+      }
+      
+        for(i = 9; i < 22; i++){
+          $("#"+i.toString()).html(dayContent[i-9])
+          if(i === currentDay.getHours()){
+              $("#"+i.toString()).attr("class","form-control present");
+          }
+          if(i < currentDay.getHours()){
+              $("#"+i.toString()).attr("class","form-control past");
+          }
+          if(i > currentDay.getHours()){
+              $("#"+i.toString()).attr("class","form-control future");
+           }
+        }
+      
+         $(".saveBtn").on("click", function(event){
+            var input = $("#" + event.target.value).val();
+             dayContent.splice((event.target.value-9), 1, input)
+            localStorage.setItem("input", JSON.stringify(dayContent)) 
+        })  
+
+    </script>
+    
   </body>
 </html>
