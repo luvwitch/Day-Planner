@@ -50,23 +50,21 @@ body {
     font-size: 20px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;     
-    width: 115px;  
-  }
-
- 
+    width: 120px;  
+  } 
   
   .past {
-    background-color:#c9ccce;
+    background-color:#cbd6db;
     color: white;
   }
   
   .present {
-    background-color:	#f4d9c8;
+    background-color:	#d6bace;
     color: #49697c;
   }
   
   .future {
-    background-color: #49697c;
+    background-color: #a5a6cf;
     color: white;
   }
   
@@ -77,6 +75,7 @@ body {
     background-color:	#9b90a1;
     border-color:transparent;
     color: white;
+    width: 110px;
   }
 
   .saveBtn:hover{
@@ -97,5 +96,9 @@ body {
 .form-control {
   font-size: 20px;
   text-align: center;
+}
 
+h1 {
+  color: white;
+  text-align: center;
 }
