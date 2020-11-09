@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;    
     line-height: 1;
     align-content: center;
@@ -21,7 +21,8 @@ body {
     background-color: transparent;
     color:	#f4d9c8;
     border-radius: 0;
-    border-bottom: 10px solid #bbb5cc;
+    border-bottom: 6px dashed #bbb5cc;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
   }
   
   .description{
@@ -48,7 +49,8 @@ body {
     padding: 30px;
     font-size: 20px;
     border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-bottom-left-radius: 15px;     
+    width: 115px;  
   }
 
  
@@ -79,7 +81,7 @@ body {
 
   .saveBtn:hover{
     background-color:	#9cb7c8;
-    border-color: transparent;
+    border-color: transparent;    
   }
   
   .saveBtn i:hover {
