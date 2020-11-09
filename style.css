@@ -59,8 +59,9 @@ body {
   }
   
   .present {
-    background-color:	#d6bace;
-    color: #49697c;
+    background-color:	#B8BED5;
+    color: hsl(202, 26%, 39%);    
+    font-weight: bolder;
   }
   
   .future {
